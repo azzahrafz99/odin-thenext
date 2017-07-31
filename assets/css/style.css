@@ -22,10 +22,6 @@ body {
   box-shadow: 0 0 20px rgba(170, 167, 167, 0.6);
 }
 
-#logo {
-  margin-top: 10px;
-}
-
 .header a {
   color: #aaa;
   font-family: 'Ropa Sans', sans-serif;
@@ -116,7 +112,7 @@ body {
 /* LATEST NEWS */
 
 .latest {
-  margin: 50px 0px 50px 85px;
+  margin: 50px 0px 50px 75px;
 }
 
 .latest h1 a {
@@ -147,6 +143,7 @@ body {
 
 .articles {
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 /* LATEST FUNDING */
@@ -240,7 +237,6 @@ li #separator {
   font-size: 10.5pt;
   font-family: 'Quicksand', sans-serif;
   margin: 15px;
-  padding-bottom: 15px;
 }
 
 .investment-card .detail a:hover {
@@ -260,390 +256,280 @@ li #separator {
   color: #aaaaaa;
 }
 
-/* RESPONSIVE */
+/*  CATEGORIES */
 
-@media screen and (max-width: 1250px) {
-  .latest img {
-    width: 230px
-  }
+/* title */
 
-  .investment-card {
-    width: 230px;
-  }
+.category {
+  margin: 50px 80px 50px 80px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.1;
+  font-size: 10pt;
+  text-align: justify;
 }
 
-@media screen and (max-width: 1145px) {
-  .main-article .description{
-    margin-top: 280px;
-  }
-
-  .main-article .description h1{
-    font-size: 29.5pt;
-  }
-
-  .main-article .description p{
-    font-size: 10pt;
-  }
-
-  .latest img {
-    width: 200px;
-  }
-
-  .investment-card {
-    width: 200px;
-    height: 270px;
-  }
-
-  .investment-card .name {
-    height: 50px;
-    padding: 18px 0 0 83px;
-    font-weight: bold;
-    font-size: 11pt;
-  }
+.category .title a{
+  font-weight: bold;
+  font-size: 21pt;
+  text-decoration: none;
+  color: #f42;
 }
 
-@media screen and (max-width: 1023px) {
-  .latest img {
-    width: 200px;
-  }
-
-  .latest {
-    margin-right: 10px;
-    font-size: 10pt;
-  }
-
-  .description {
-    position: absolute;
-    margin: 100px 20px 0 20px;
-  }
-
-  .description h1 {
-    font-size: 14pt;
-    font-weight: bold;
-  }
-
-  .description p {
-    font-weight: lighter;
-    font-size: 8pt;
-  }
-
-  .main-article .description {
-    margin-top: 250px;
-  }
-
-  .main-article .description h1{
-    font-size: 28pt;
-  }
-
-  .main-article .description p{
-    font-size: 10pt;
-  }
-
-  .investment-card {
-    width: 180px;
-  }
-
-  .investment-card .name {
-    height: 60px;
-    padding: 18px 5px 0 83px;
-    font-weight: bold;
-    font-size: 10pt;
-  }
-
-  .investment-card .image {
-    margin: -35px 0 0 15px;
-  }
-
-  .investment-card .image img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .investment-card .deets {
-    height: 50px;
-    padding: 10px 0 10px 80px;
-    margin: -30px 0 0 0;
-  }
-
-  .investment-card .deets h4, .investment-card .deets p {
-    font-size: 10pt;
-  }
-
-  .investment-card .detail {
-    font-size: 9pt;
-    margin: 15px;
-    padding-bottom: 15px;
-  }
-
-  .investment-card .desc {
-    font-size: 9pt;
-    margin: 15px;
-    padding-bottom: 15px;
-  }
+.category .title a:hover{
+  color: black;
 }
 
-@media screen and (max-width: 1000px) {
-  .latest img{
-    width: 170px;
-    padding-right: 5px;
-  }
+/**/
 
-  .investment-card {
-    width: 150px;
-  }
+/* article */
 
-  .investment-card .name {
-    height: 65px;
-    font-size: 8pt;
-    padding: 12px 5px 0 60px;
-  }
-
-  .investment-card .image {
-    margin: -45px 0 0 10px;
-  }
-
-  .investment-card .image img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .investment-card .deets {
-    height: 40px;
-    padding: 10px 0 10px 60px;
-    margin: -30px 0 0 0;
-  }
-
-  .investment-card .deets h4, .investment-card .deets p {
-    font-size: 9pt;
-  }
-
-  .investment-card .detail {
-    font-size: 8pt;
-    margin: 15px;
-  }
-
-  .investment-card .desc {
-    font-size: 9pt;
-    margin: 15px;
-    padding-bottom: 15px;
-  }
+.category .article-1 {
+  background: -webkit-linear-gradient(rgba(0,0,0,.1) 5%, transparent 100%), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 20%, transparent 100%), url('../images/image2.png');
+  height: 280px;
 }
 
-@media screen and (max-width: 835px) {
-  .article-1 {
-    height: 240px;
-  }
-  .main-article .description h1{
-    font-size: 28pt;
-  }
-
-  .main-article .description p{
-    font-size: 10pt;
-  }
-
-  .description {
-    position: absolute;
-    margin: 150px 20px 0 20px;
-  }
-
-  .description h1 {
-    font-size: 14pt;
-    font-weight: bold;
-  }
-
-  .description p {
-    font-weight: lighter;
-    font-size: 8pt;
-  }
-
-  .main-article .description {
-    position: absolute;
-    margin: 120px 20px 0 20px;
-  }
-
-  .main-article .description h1{
-    font-size: 14pt;
-  }
-
-  .main-article .description p{
-    font-size: 8pt;
-  }
-
-  .header ul {
-    margin-top: -30px;
-    margin-right: 5px;
-  }
-
-  .header {
-    padding-top: 8px;
-  }
-
-  .featured-articles {
-    margin-left: 0px;
-    margin-right: 3px;
-  }
-
-  .latest img{
-    width: 150px;
-    padding-right: 5px;
-  }
-
-  .investment-card {
-    width: 100%;
-    margin: 0;
-  }
-
-  .investment-card a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .investment-card .name {
-    background-color: #FF4422;
-    height: 50px;
-    padding: 15px 0 0 95px;
-    color: white;
-    font-weight: bold;
-    font-size: 15pt;
-  }
-
-  .investment-card .image {
-    margin: -35px 0 0 15px;
-  }
-
-  .investment-card .image img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .investment-card .deets {
-    background-color: #FFEBE7;
-    height: 60px;
-    padding: 15px 0 15px 95px;
-    color: black;
-    margin: -30px 0 0 0;
-  }
-
-  .investment-card .deets h4 {
-    font-weight: bold;
-    font-size: 12pt;
-  }
-
-  .investment-card .deets p {
-    font-size: 11pt;
-    color: #aaaaaa;
-    font-family: 'Ropa Sans', sans-serif;
-  }
-
-  .investment-card .detail {
-    font-size: 10.5pt;
-    font-family: 'Quicksand', sans-serif;
-    margin: 15px;
-    padding-bottom: 15px;
-  }
-
-  .investment-card .detail a:hover {
-    font-weight: bold;
-  }
-
-  .investment-card .desc {
-    font-size: 9pt;
-    font-family: 'Quicksand', sans-serif;
-    margin: 15px;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    border-top: 1px solid #FFCDC2;
-  }
-
-  .investment-card .desc span {
-    color: #aaaaaa;
-  }
-
-  .latest {
-    padding: 30px 0 30px 0;
-    margin: 0 5px 0 5px;
-  }
-
-  .funding {
-    padding: 30px 0 30px 0;
-    margin: 0px 5px 0 5px;
-  }
+.category .article-2 {
+  background: -webkit-linear-gradient(rgba(0,0,0,.1) 5%, transparent 100%), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 20%, transparent 100%), url('../images/image3.png') center;
+  height: 280px;
+}
+.category .article-3 {
+  background: -webkit-linear-gradient(rgba(0,0,0,.1) 5%, transparent 100%), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 20%, transparent 100%), url('../images/image4.png') 55% 10%  ;
+  height: 280px;
 }
 
-@media screen and (max-width: 620px) {
-  .main-article .description {
-    position: absolute;
-    margin: 100px 20px 0 20px;
-  }
-
-  .main-article .description h1{
-    font-size: 14pt;
-  }
-
-  .main-article .description p{
-    font-size: 8pt;
-  }
-
-  .featured-articles {
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-
-  .header ul {
-    margin-top: -30px;
-  }
-
-  .header {
-    padding-top: 8px;
-  }
-
-  .latest {
-    margin: 0 5px 0 5px;
-  }
-
-  .funding {
-    margin: 0px 5px 0 5px;
-  }
+.category article .description {
+  color: white;
+  font-size: 10pt;
+  margin-top: 80px;
+  width: 320px;
 }
 
-@media screen and (max-width: 480px) {
-  .main-article .description {
-    position: absolute;
-    margin: 80px 20px 0 20px;
-  }
-
-  .main-article .description h1{
-    font-size: 14pt;
-  }
-
-  .main-article .description p{
-    font-size: 8pt;
-  }
-
-  .featured-articles {
-    margin-left: 10px;
-    margin-right: -6px;
-  }
-
-  .featured-articles .description {
-    margin-top: 120px;
-  }
-
-  .header {
-    padding-top: 10px;
-  }
-
-  .header ul {
-    display: none;
-  }
-
-  .latest {
-    padding: 30px 0 30px 0;
-    margin: 0 5px 0 5px;
-  }
-
-  .funding {
-    padding: 30px 0 30px 0;
-    margin: 0px 5px 0 5px;
-  }
+.category article .description h1 {
+  font-size: 18pt;
+  font-weight: bold;
+  width: 100%;
 }
+
+.category article .description p {
+  font-weight: lighter;
+  font-size: 10pt;
+}
+
+
+/**/
+
+
+/* related news */
+
+/* latest */
+
+.category .latest-news {
+  background-color: #FFF4F2;
+  height: 100px;
+  color: #f42;
+}
+
+.category .latest-news .one {
+  background: -webkit-linear-gradient(rgba(0,0,0,.1) 5%, transparent 100%), -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 20%, transparent 100%), url('../images/thumb.jpg') center;
+  height: 100px;
+  margin: -3px 0 0 0;
+}
+
+.category .latest-news .text {
+  margin: 10px;
+  text-align: left;
+}
+
+.category .latest-news a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.category .latest-news a:hover {
+  box-shadow: inset 0 -1px 0 rgba(255,68,34,.25);
+  color: #f42;
+}
+
+/* list */
+
+.category ul {
+  list-style: none;
+  margin: 20px 0 20px 10px;
+}
+
+.category li::before {
+  color: #f42;
+  content: "• ";
+}
+
+.category li {
+  text-indent: -.9em;
+  padding: 10px 5px 10px 5px;
+  border-bottom: 0.8px solid #ccc;
+}
+
+.category li a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.category li a:hover {
+  color: black;
+}
+
+
+/**/
+
+/*  LATEST DEAL */
+
+ .deals p {
+   margin-top: 10px;
+   font-size: 11pt;
+ }
+
+ .deals span {
+   color: #aaaaaa;
+   text-decoration: line-through;
+   font-size: 9pt;
+ }
+
+/**/
+
+/* FOOTER */
+.footer {
+  background-color: #131313;
+  height: 400px;
+  width: 100%;
+  color: white;
+  padding-top: 20px;
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+.social-media li {
+  display: inline-block;
+  text-align: center;
+}
+
+.social-media li img {
+  width: 16px;
+}
+
+.social-media li a {
+  background-color: #333333;
+  border: 3px solid #333333;
+  border-radius: 50%;
+  padding: 12px 10.5px 6px 10.5px;
+}
+
+.social-media li a:hover {
+  background-color: #131313;
+  border: 3px solid #333333;
+  border-radius: 50%;
+}
+
+footer li {
+ list-style: none;
+}
+
+.footer a {
+  color: #AAA;
+  text-decoration: none;
+  font-size: 13pt;
+  padding: 5px;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.footer a:hover{
+  color: white;
+}
+
+.inline {
+  margin-top: 50px;
+  font-family: 'Ropa Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.inline li{
+  display: inline-block;
+}
+
+.trending {
+  margin-left: 50px;
+}
+
+.trending a {
+  margin-bottom: 30px;
+}
+
+.trending li a {
+  color: #f5f5f5;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12pt;
+  line-height: 1.5em;
+}
+
+.trending span {
+  color: #333;
+}
+
+.copyright {
+  color: #aaa;
+  font-size: 10pt;
+  background-color: #000000;
+  height: 100px;
+  padding-top: 32px;
+}
+
+.copyright span {
+  color: #F42;
+}
+
+.copyright #logo {
+  width: 48px;
+}
+
+/* HIDDEN MENU */
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  font-family: 'Ropa Sans', sans-serif;
+  color: #CCC;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: #ccc;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown .dropbtn:hover {
+  color: black;
+}
+
+/**/

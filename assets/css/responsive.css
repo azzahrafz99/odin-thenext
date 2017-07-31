@@ -1,0 +1,559 @@
+/* RESPONSIVE */
+
+@media screen and (max-width: 1300px) {
+  .category .latest-news .one {
+    margin: -5px 0 0 0;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .category article .description {
+    width: 280px;
+  }
+
+  .category article .description h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .category .latest-news .one {
+    margin: -4px 0 0 0;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .latest img {
+    width: 230px
+  }
+
+  .investment-card {
+    width: 230px;
+  }
+
+  .category article .description h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .category article .description p {
+    font-weight: lighter;
+    font-size: 10pt;
+  }
+
+  .category .latest-news .one {
+    margin: -4px 0 0 0;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .main-article .description{
+    margin-top: 280px;
+  }
+
+  .main-article .description h1{
+    font-size: 29.5pt;
+  }
+
+  .main-article .description p{
+    font-size: 10pt;
+  }
+
+  .latest img {
+    width: 200px;
+  }
+
+  .investment-card {
+    width: 200px;
+    height: 270px;
+  }
+
+  .investment-card .name {
+    height: 50px;
+    padding: 18px 0 0 83px;
+    font-weight: bold;
+    font-size: 11pt;
+  }
+
+  .category article .description {
+    width: 260px;
+  }
+
+  .category article .description h1 {
+    font-size: 14pt;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .latest img {
+    width: 200px;
+  }
+
+  .latest {
+    margin-right: 10px;
+    font-size: 10pt;
+  }
+
+  .description {
+    position: absolute;
+    margin: 100px 20px 0 20px;
+  }
+
+  .description h1 {
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
+  .description p {
+    font-weight: lighter;
+    font-size: 8pt;
+  }
+
+  .main-article .description {
+    margin-top: 250px;
+  }
+
+  .main-article .description h1{
+    font-size: 28pt;
+  }
+
+  .main-article .description p{
+    font-size: 10pt;
+  }
+
+  .investment-card {
+    width: 180px;
+  }
+
+  .investment-card .name {
+    height: 60px;
+    padding: 18px 5px 0 83px;
+    font-weight: bold;
+    font-size: 10pt;
+  }
+
+  .investment-card .image {
+    margin: -35px 0 0 15px;
+  }
+
+  .investment-card .image img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .investment-card .deets {
+    height: 50px;
+    padding: 10px 0 10px 80px;
+    margin: -30px 0 0 0;
+  }
+
+  .investment-card .deets h4, .investment-card .deets p {
+    font-size: 10pt;
+  }
+
+  .investment-card .detail {
+    font-size: 9pt;
+    margin: 15px;
+    padding-bottom: 15px;
+  }
+
+  .investment-card .desc {
+    font-size: 9pt;
+    margin: 15px;
+    padding-bottom: 15px;
+  }
+
+  .category article .description {
+    width: 220px;
+  }
+
+  .category article .description h1 {
+    font-size: 13pt;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .latest img{
+    width: 170px;
+    padding-right: 5px;
+  }
+
+  .investment-card {
+    width: 150px;
+  }
+
+  .investment-card .name {
+    height: 65px;
+    font-size: 8pt;
+    padding: 12px 5px 0 60px;
+  }
+
+  .investment-card .image {
+    margin: -45px 0 0 10px;
+  }
+
+  .investment-card .image img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .investment-card .deets {
+    height: 40px;
+    padding: 10px 0 10px 60px;
+    margin: -30px 0 0 0;
+  }
+
+  .investment-card .deets h4, .investment-card .deets p {
+    font-size: 9pt;
+  }
+
+  .investment-card .detail {
+    font-size: 8pt;
+    margin: 15px;
+  }
+
+  .investment-card .desc {
+    font-size: 9pt;
+    margin: 15px;
+    padding-bottom: 15px;
+  }
+
+  .category .latest-news {
+    height: 120px;
+  }
+
+  .category article .description {
+    width: 180px;
+  }
+
+  .category article .description h1 {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .fixed-8 {
+    width: 66.13%;
+  }
+
+  .fixed-4 {
+    width: 32.26%;
+  }
+
+  .article-1 {
+    height: 240px;
+  }
+  .main-article .description h1{
+    font-size: 28pt;
+  }
+
+  .main-article .description p{
+    font-size: 10pt;
+  }
+
+  .description {
+    position: absolute;
+    margin: 150px 20px 0 20px;
+  }
+
+  .description h1 {
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
+  .description p {
+    font-weight: lighter;
+    font-size: 8pt;
+  }
+
+  .main-article .description {
+    position: absolute;
+    margin: 120px 20px 0 20px;
+  }
+
+  .main-article .description h1{
+    font-size: 14pt;
+  }
+
+  .main-article .description p{
+    font-size: 8pt;
+  }
+
+  .header ul {
+    margin-top: -30px;
+    margin-right: 5px;
+  }
+
+  .header {
+    padding-top: 8px;
+  }
+
+  .featured-articles {
+    margin-left: 0px;
+    margin-right: 3px;
+  }
+
+  .latest img{
+    width: 150px;
+    padding-right: 5px;
+  }
+
+  .investment-card {
+    width: 100%;
+    margin: 0;
+  }
+
+  .investment-card a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .investment-card .name {
+    background-color: #FF4422;
+    height: 50px;
+    padding: 15px 0 0 95px;
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+  }
+
+  .investment-card .image {
+    margin: -35px 0 0 15px;
+  }
+
+  .investment-card .image img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .investment-card .deets {
+    background-color: #FFEBE7;
+    height: 60px;
+    padding: 15px 0 15px 95px;
+    color: black;
+    margin: -30px 0 0 0;
+  }
+
+  .investment-card .deets h4 {
+    font-weight: bold;
+    font-size: 12pt;
+  }
+
+  .investment-card .deets p {
+    font-size: 11pt;
+    color: #aaaaaa;
+    font-family: 'Ropa Sans', sans-serif;
+  }
+
+  .investment-card .detail {
+    font-size: 10.5pt;
+    font-family: 'Quicksand', sans-serif;
+    margin: 15px;
+    padding-bottom: 15px;
+  }
+
+  .investment-card .detail a:hover {
+    font-weight: bold;
+  }
+
+  .investment-card .desc {
+    font-size: 9pt;
+    font-family: 'Quicksand', sans-serif;
+    margin: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #FFCDC2;
+  }
+
+  .investment-card .desc span {
+    color: #aaaaaa;
+  }
+
+  .latest {
+    padding: 30px 0 30px 0;
+    margin: 0 5px 0 5px;
+  }
+
+  .funding {
+    padding: 30px 0 30px 0;
+    margin: 0px 5px 0 5px;
+  }
+
+  .category .latest-news .one {
+    margin: -8px 0 0 0;
+    height: 120px;
+  }
+
+  .category {
+    margin: 0;
+  }
+
+  .left {
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  .category article .description {
+    color: white;
+    font-size: 10pt;
+    margin-top: 80px;
+    width: 500px;
+  }
+
+  .category article .description h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .category article .description p {
+    font-weight: lighter;
+    font-size: 10pt;
+  }
+
+  .footer {
+    height: 600px;
+  }
+
+
+}
+
+@media screen and (max-width: 620px) {
+  .category article .description {
+    color: white;
+    font-size: 10pt;
+    margin-top: 80px;
+    width: 400px;
+  }
+
+  .category article .description h1 {
+    font-size: 16pt;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .category article .description p {
+    font-weight: lighter;
+    font-size: 10pt;
+  }
+
+  .main-article .description {
+    position: absolute;
+    margin: 100px 20px 0 20px;
+  }
+
+  .main-article .description h1{
+    font-size: 14pt;
+  }
+
+  .main-article .description p{
+    font-size: 8pt;
+  }
+
+  .featured-articles {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .header ul {
+    margin-top: -30px;
+  }
+
+  .header {
+    padding-top: 8px;
+  }
+
+  .latest {
+    margin: 0 5px 0 5px;
+  }
+
+  .funding {
+    margin: 0px 5px 0 5px;
+  }
+
+  .category .latest-news .one {
+    margin: -6px 0 0 0;
+    height: 120px;
+  }
+
+  .category {
+    margin-left: 5px;
+  }
+
+  .left .one {
+    margin-right: -1px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .category .latest-news .one {
+    margin: -4px -7px 0 0;
+    height: 120px;
+  }
+
+  .main-article .description {
+    position: absolute;
+    margin: 80px 20px 0 20px;
+  }
+
+  .main-article .description h1{
+    font-size: 14pt;
+  }
+
+  .main-article .description p{
+    font-size: 8pt;
+  }
+
+  .featured-articles {
+    margin-left: 10px;
+    margin-right: -6px;
+  }
+
+  .featured-articles .description {
+    margin-top: 120px;
+  }
+
+  .header {
+    padding-top: 10px;
+  }
+
+  .header ul {
+    display: none;
+  }
+
+  .latest {
+    padding: 30px 0 30px 0;
+    margin: 0 5px 0 5px;
+  }
+
+  .funding {
+    padding: 30px 0 30px 0;
+    margin: 0px 5px 0 5px;
+  }
+
+  .category article .description {
+    color: white;
+    font-size: 10pt;
+    margin-top: 80px;
+    width: 300px;
+  }
+
+  .copyright p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .copyright {
+    height: 120px;
+  }
+
+  .header .hidden {
+    display: inline-block;
+    position: relative;
+    margin: -35px 0 0 280px;
+  }
+}
